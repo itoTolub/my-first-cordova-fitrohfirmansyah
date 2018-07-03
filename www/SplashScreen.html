@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" initial-scale=1, maximum-scale=1, minimum-scale=1 width="device-width" >
+    <title>
+      SPALSH SCREEN
+    </title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+    <body>
+      <script type="text/javascript" charset="utf-8" src="cordova.js" ></script>
+      <script type="text/javascript" charset="utf-8" >
+        //wait for device API libraries to load
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        //device API are available
+        funtion onDeviceReady(){
+          setTimeout(funtion){
+            navigator.splashscreen.hide();
+          },10000
+        }
+      </script>
+      <img draggable="false" class="emoji" alt="index.html" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f642.svg" >
+    </body>
+</html>
